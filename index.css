@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+body {
+  background-color: rgb(234, 234, 252);
+}
+
+#main {
+  height: 220px;
+  width: 820px;
+  margin: 190px auto 0px auto;
+  box-shadow: 0px 0px 15px gray;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#profile_container {
+  width: 35%;
+}
+
+#profile {
+  margin: 40px 0px 0px 50px;
+  box-shadow: -18px 18px 0px rgb(252, 214, 0);
+}
+
+#description_sec {
+  width: 60%;
+}
+
+#name {
+  font-weight: bold;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+#top_design {
+  margin-top: -15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+.logos {
+  margin-right: 30px;
+}
+
+#last_sec {
+  width: 10%;
+  padding-right: 10px;
+}
+
+#logo_last {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+#logo_dbl_line {
+  font-size: 8px;
+  display: inline-block;
+  line-height: 9px;
+  margin-top: -10px;
+}
